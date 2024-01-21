@@ -5934,6 +5934,7 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                 video: {
                     autoplay: true,
                     loop: true,
+                    muted: true,
                     source,
                     width: width * this.imageScale,
                     height: height * this.imageScale,
