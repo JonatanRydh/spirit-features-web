@@ -5729,7 +5729,8 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                                         {
                                             text: "as featured in",
                                             size: 20,
-                                            color: "#000",
+                                            color: "#b9a587",
+                                            shadow: true,
                                         },
                                         {
                                             row: [
@@ -5800,7 +5801,7 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                                                 this.separator,
                                                 this.header("Versatile Island Layout"),
                                                 this.textBlock("The boards that can be laid out in a recommended, custom, or random configuration."),
-                                                this.video("/videos/island.mp4", 1140, 790),
+                                                this.video("videos/island.mp4", 1140, 790),
                                                 this.separator,
                                                 this.header("Thematic Board Overhaul"),
                                                 this.textBlock("The thematic board has undergone several changes compared to the cardboard variant. Firstly, the textures have been altered to make the lands more distinct. Secondly, the edge borders and coast have been adjusted to accommodate any layout configuration, such as the circular board featured below. Finally, some inner borders have been somewhat straightened to compensate for the smaller land sizes, allowing for more token space."),
@@ -5824,7 +5825,7 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                                                 this.separator,
                                                 this.header("Convenient Reminders & Ongoing Effects"),
                                                 this.textBlock("A game of Spirit Island can involve numerous simultaneous effects, making it challenging to remember everything that can influence ones decisions. To address this, reminders, both global and local, have been added for every lingering effect. Yellow reminders signify effects lasting until the end of the turn, while pink reminders indicate permanent effects."),
-                                                this.video("/videos/reminders.mp4", 1140, 348),
+                                                this.video("videos/reminders.mp4", 1140, 348),
                                                 this.separator,
                                                 this.header("Full History & Undo Features"),
                                                 this.textBlock("A comprehensive log of the current game is readily available. The arrows to the right allow players to jump to any specific point in the history. It is up to the players to decide whether jumping back past the point where information was revealed is acceptable or not. Hovering over blue text will highlight that particular land or reveal that specific card."),
