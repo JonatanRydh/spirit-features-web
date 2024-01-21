@@ -1,0 +1,123 @@
+/*!****************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/app/styles/index.css ***!
+  \****************************************************************************/
+body {
+  margin: 0;
+  padding: 0;
+  background:#000;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+div {
+  display: flex;
+}
+@font-face {
+  font-family: 'reemkufi';
+  src: local('reemkufi'), url(cbabd646e4e9b2eb9d3a.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'antropos';
+  src: local('reemkufi'), url(2737c4f62e88ab043002.ttf) format('truetype');
+}
+span, input {
+  font-family: 'reemkufi';
+  letter-spacing: 0.03em;
+}
+/*span.caption {
+  font-family: 'consolas' !important;
+}*/
+@keyframes ripple-effect {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(30);
+    opacity: 0.375;
+  }
+  100% {
+    transform: scale(100);
+    opacity: 0;
+  }
+}
+textarea {
+  font-size: 40px;
+  font-family: 'reemkufi';
+  background: #0002;
+  color: #000;
+  padding: 40px;
+  outline: none;
+}
+input {
+  outline: none;
+  border: 1px solid #0004;
+}
+ 
+.disable-transitions * {
+  transition: none !important;
+}
+
+.loader {
+  width: 60px;
+  height: 40px;
+  position: relative;
+  display: inline-block;
+  --base-color: #8b775c;
+}
+.loader::before {
+  content: '';  
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #000;
+  background-image: radial-gradient(circle 8px at 18px 18px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 18px 0px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 0px 18px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 36px 18px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 18px 36px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 30px 5px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 30px 5px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 30px 30px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 5px 30px, var(--base-color) 100%, transparent 0), radial-gradient(circle 4px at 5px 5px, var(--base-color) 100%, transparent 0);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  animation: rotationBack 3s linear infinite;
+}
+.loader::after {
+  content: '';  
+  left: 35px;
+  top: 15px;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #000;
+  background-image: radial-gradient(circle 5px at 12px 12px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 12px 0px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 0px 12px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 24px 12px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 12px 24px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 20px 3px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 20px 3px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 20px 20px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 3px 20px, var(--base-color) 100%, transparent 0), radial-gradient(circle 2.5px at 3px 3px, var(--base-color) 100%, transparent 0);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  animation: rotationBack 4s linear infinite reverse;
+}
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.link:hover {
+  text-decoration-line: underline;
+}
+.text span {
+  color: #fff;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.separator {
+  border-width: 3px 4px;
+  border-color: #232223;
+  border-style: solid;
+  height: 0px;
+  margin: 12px auto 12px;
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAMCAMAAACz+6aNAAABhWlDQ1BJQ0MgcHJvZmlsZQAAKJF9kTtIw1AUhv+miiIVBzuICEaoThbEF45ahSJUCLVCqw4mN31Bk4YkxcVRcC04+FisOrg46+rgKgiCDxBHJydFFynx3KTQIsYDl/vx3/P/3HsuINRKTLPaxgBNt81kPCamM6tixysCGEQIQ5iSmWXMSVICvvV1T91Ud1Ge5d/3Z3WrWYsBAZF4lhmmTbxBPL1pG5z3icOsIKvE58SjJl2Q+JHrisdvnPMuCzwzbKaS88RhYjHfwkoLs4KpEU8SR1RNp3wh7bHKeYuzVqqwxj35C0NZfWWZ67QGEMciliBBhIIKiijBRpR2nRQLSTqP+fj7Xb9ELoVcRTByLKAMDbLrB/+D37O1chPjXlIoBrS/OM7HMNCxC9SrjvN97Dj1EyD4DFzpTX+5Bsx8kl5tapEjoGcbuLhuasoecLkD9D0Zsim7UpCWkMsB72f0TRmg9xboWvPm1jjH6QOQolklboCDQ2AkT9nrPu/ubJ3bvz2N+f0As9tywbHNoQUAAAAJcEhZcwAACxMAAAsTAQCanBgAAAAHdElNRQfmAgcMERnVdktSAAAAGXRFWHRDb21tZW50AENyZWF0ZWQgd2l0aCBHSU1QV4EOFwAAAF1QTFRFAAAAAQABQAABIAABIB8AFgABEA8AEQABGgwAGxEAGA8AFQ0AGgwAFxAAERERFxcXIyIjIyMjJCMkJSQlNTQ1Pz4/RkVGSklKS0pLUFBQXVxdZGRkZ2dnaGho/v77qgZ5ogAAAA50Uk5TAAQECAgMEBAUHCAkKCzwtnm7AAAAAWJLR0QecgogKwAAAFhJREFUCNdtjjkOA0EMw0jbyf//G4yVYrfJwU4CdMA3ApW+xHFhQLsEiGsYyu5SSPaQbeh5qmpNsldqkoD6EgbAUpMEYCB5eDsJ+Nl8ssNK7vXdzZ+Hv7wBJcUwO5y9bxAAAAAASUVORK5CYII=) 6 8 repeat;
+  border-image-outset: 0 2px;
+}
+
+/*# sourceMappingURL=main.css.map*/

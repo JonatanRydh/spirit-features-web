@@ -1,0 +1,11 @@
+{
+  "short_name": "Spirit Island",
+  "name": "Spirit Island Professional Edition",
+  "description": "A multiplayer client for the board game Spirit Island.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation":  "landscape",
+  "theme_color": "#0e0e0e",
+  "scope": "/",
+  "background_color": "#0e0e0e"
+}
