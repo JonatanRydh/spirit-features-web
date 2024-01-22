@@ -5673,6 +5673,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var src_quickdom_enums_ImageRepeat__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/quickdom/enums/ImageRepeat */ "./src/quickdom/enums/ImageRepeat.ts");
 /* harmony import */ var src_quickdom_enums_ImageSize__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! src/quickdom/enums/ImageSize */ "./src/quickdom/enums/ImageSize.ts");
 /* harmony import */ var src_quickdom_enums_Overflow__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! src/quickdom/enums/Overflow */ "./src/quickdom/enums/Overflow.ts");
+/* harmony import */ var src_quickdom_enums_TextAlign__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! src/quickdom/enums/TextAlign */ "./src/quickdom/enums/TextAlign.ts");
+
 
 
 
@@ -5722,6 +5724,7 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                                         {
                                             text: "The Making of a custom Spirit Island client",
                                             color: "rgb(255, 230, 192)",
+                                            textAlign: src_quickdom_enums_TextAlign__WEBPACK_IMPORTED_MODULE_7__.TextAlign.Center,
                                             shadow: true,
                                             size: 22,
                                             bold: true,
@@ -5770,21 +5773,13 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                                     column: [
                                         {
                                             width: "100%",
-                                            height: 40,
+                                            minHeight: 40,
                                             align: src_quickdom_enums_Align__WEBPACK_IMPORTED_MODULE_2__.Align.MiddleLeft,
                                             row: [
                                                 {
                                                     color: "#ffffe7",
-                                                    text: "A live status document of the project.",
+                                                    text: "A live status document of the project. Last modified 2024-01-22",
                                                     margin: { left: 5 },
-                                                },
-                                                {
-                                                    grow: 1,
-                                                },
-                                                {
-                                                    color: "#ffffe7",
-                                                    text: "Last modified 2024-01-22",
-                                                    margin: { right: 5 },
                                                 },
                                             ],
                                         },
@@ -7239,6 +7234,28 @@ var Parameter;
     Parameter["Width"] = "width";
     Parameter["All"] = "all";
 })(Parameter || (Parameter = {}));
+
+
+/***/ }),
+
+/***/ "./src/quickdom/enums/TextAlign.ts":
+/*!*****************************************!*\
+  !*** ./src/quickdom/enums/TextAlign.ts ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   TextAlign: () => (/* binding */ TextAlign)
+/* harmony export */ });
+var TextAlign;
+(function (TextAlign) {
+    TextAlign["Center"] = "center";
+    TextAlign["Start"] = "start";
+    TextAlign["End"] = "end";
+    TextAlign["Left"] = "left";
+    TextAlign["Right"] = "right";
+})(TextAlign || (TextAlign = {}));
 
 
 /***/ }),
