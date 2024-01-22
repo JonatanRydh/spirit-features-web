@@ -5920,6 +5920,18 @@ class App extends src_quickdom_Component__WEBPACK_IMPORTED_MODULE_1__.Component 
                                                 this.textBlock("Curious to witness the custom Spirit Island client in action? Join me on my channel, where I'm currently documenting games played in a campaign entirely played by the A.I. I'd love to have you there—feel free to drop by and share your thoughts in the comments!")
                                             ],
                                         },
+                                        {
+                                            width: "100%",
+                                            minHeight: 30,
+                                            align: src_quickdom_enums_Align__WEBPACK_IMPORTED_MODULE_2__.Align.MiddleRight,
+                                            row: [
+                                                {
+                                                    color: "#ffffe7",
+                                                    text: "Jonathan",
+                                                    margin: { right: 5 },
+                                                },
+                                            ],
+                                        },
                                     ],
                                 },
                             ],
