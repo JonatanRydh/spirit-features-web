@@ -1,7 +1,6 @@
 {
   "short_name": "Spirit Island",
-  "name": "Spirit Island Professional Edition",
-  "description": "A multiplayer client for the board game Spirit Island.",
+  "name": "The Making of a custom Spirit Island client",
   "start_url": "/",
   "display": "standalone",
   "orientation":  "landscape",
