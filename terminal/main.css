@@ -13,6 +13,7 @@ body {
 }
 div {
   overscroll-behavior: none;
+  font-family: "minlo";
 }
 ::-webkit-scrollbar {
   display: none;
@@ -24,7 +25,6 @@ div {
   background: linear-gradient(217deg, #49346455, rgba(255,0,0,0) 70.71%),
             linear-gradient(127deg, #49366155, rgba(0,255,0,0) 70.71%),
             linear-gradient(336deg, #472c5255, rgba(0,0,255,0) 70.71%);          
-  font-family: "minlo";
   font-size: 20px;
   padding: 20px;
   display: flex;
@@ -33,12 +33,13 @@ div {
 }
 code {
   font-weight: bold;
-  color: rgb(117, 117, 236);
+  color: #9292ff;
 }
 #inputRow {
   width: "100%";
   display: flex;
   flex-direction: row;
+  margin: 0.7em 0 0 0;
 }
 #caret {
   display: inline;
@@ -46,8 +47,9 @@ code {
 #input {
   background-color: transparent;
   border: none;
-  color: white;
-  font-family: 'minlo';
+  color: #9292ff;
+  font-weight: bold;
+  font-family: minlo;
   outline: none;
   font-size: 20px;
   padding: 0;
@@ -62,4 +64,28 @@ code {
   font-family: minlo;
   font-weight: bold;
   src: url(2c51e9f8527526a9afea.woff2);
+}
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5cc88f;
+  margin: 0.7em 0 0 0;
+  text-decoration: underline;
+  text-decoration-color: #5cc88e6a;
+}
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #9fd363;
+  margin: 0.7em 0 0 0;
+}
+span.link {
+  color: #9e6aba;
+}
+span.input {
+  color: #9292ff;
+  font-weight: bold;
+}
+p.input-row {
+  margin: 0.7em 0 0 0;
 }
