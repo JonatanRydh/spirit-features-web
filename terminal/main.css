@@ -31,7 +31,7 @@ div {
   flex-direction: column;
   overflow-y: auto;
 }
-code {
+.command {
   font-weight: bold;
   color: #9292ff;
 }
