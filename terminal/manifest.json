@@ -1,10 +1,10 @@
 {
   "short_name": "Spirit Island",
-  "name": "Spirit Island Deluxe Edition",
-  "description": "A multiplayer client for the board game Spirit Island.",
+  "name": "Spirit Island Terminal Edition",
+  "description": "A text/command-based client for the board game Spirit Island.",
   "start_url": "/",
   "display": "standalone",
-  "orientation":  "landscape",
+  "orientation":  "portrait",
   "theme_color": "#0e0e0e",
   "scope": "/",
   "background_color": "#0e0e0e"
